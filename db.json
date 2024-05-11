@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "tag": "Negocios",
+            "title": "Finanzas Personales",
+            "off": "20% OFF",
+            "price": "S/. 400 PEN",
+            "newPrice": "S/. 320 PEN"
+        },
+        {
+            "tag": "Negocios",
+            "title": "Contabilidad",
+            "off": "20% OFF",
+            "price": "S/. 400 PEN",
+            "newPrice": "S/. 320 PEN"
+        },
+        {
+            "tag": "Negocios",
+            "title": "Administración de Empresas",
+            "off": "20% OFF",
+            "price": "S/. 400 PEN",
+            "newPrice": "S/. 320 PEN"
+        },
+        {
+            "tag": "Herramientas Digitales",
+            "title": "SAP",
+            "off": "20% OFF",
+            "price": "S/. 252 PEN",
+            "newPrice": "S/. 201 PEN"
+        }
+    ]
+}

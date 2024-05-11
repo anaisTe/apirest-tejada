@@ -12,9 +12,9 @@ export class LoginService {
   private DATA_USER: IUser = {
     id: 1,
     email: 'user@mail.com',
-    firstName: 'Lulu',
-    lastName: 'Lopez',
-    role: 'ADMIN',
+    firstName: 'Usuario',
+    lastName: 'Test',
+    role: 'USER',
   };
 
   private _authUser$ = new BehaviorSubject<IUser | null>(null);

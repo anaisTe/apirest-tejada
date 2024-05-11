@@ -8,6 +8,7 @@ import { LayoutModule } from './feature/layout/layout.module';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
 import { StoreModule } from '@ngrx/store';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { StoreModule } from '@ngrx/store';
     LayoutModule,
     RouterModule,
     SharedModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot({}, {}),
+    HttpClientModule
   ],
   providers: [
     provideAnimationsAsync()

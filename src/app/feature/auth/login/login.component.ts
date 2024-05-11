@@ -41,7 +41,6 @@ export class LoginComponent {
 
 
   goToHome() {
-    console.log('login',this.LoginForm.value);
     if (this.LoginForm.invalid) {
       this.LoginForm.markAllAsTouched();
     } else {

@@ -1,2 +1,27 @@
-<p>inicio works!</p>
-<button mat-flat-button color="primary" (click)="goOut()">Cerrar sesión</button>
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>ApiRest</span>
+      <span class="example-spacer"></span>
+      <button mat-flat-button (click)="goOut()" color="primary">
+        <mat-icon>logout</mat-icon>
+        Cerrar sesión
+      </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 mb-4" *ngFor="let item of productsList">
+      <div class="item-container">
+        <span class="item-container-tag">{{item.tag}}</span>
+        <p class="item-container-title">{{item.title}}</p>
+        <span class="item-container-off">{{item.off}}</span>
+        <span class="item-container-price">{{item.price}}</span>
+        <p class="item-container-newPrice">{{item.newPrice}}</p>
+        <button mat-flat-button class="w-100 mt-3" color="primary">Ver más</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

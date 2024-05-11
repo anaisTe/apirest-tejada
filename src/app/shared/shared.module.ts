@@ -6,13 +6,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FormFieldValidationErrorsPipe } from './pipes/form-validation-errorText.pipe';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 const MaterialApi = [
   MatFormFieldModule,
   MatInputModule,
   MatIconModule,
-  MatButtonModule
+  MatButtonModule,
+  MatToolbarModule
 ]
 
 @NgModule({

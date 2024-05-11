@@ -1,0 +1,45 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.item-container {
+  box-shadow: 0px 0px 9px 3px #f1eaff;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+  &-tag {
+    font-size: 12px;
+    background: #565353;
+    color: #fff;
+    padding: 4px 9px;
+    border-radius: 5px;
+  }
+
+  &-title {
+    font-size: 24px;
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+
+  &-off {
+    display: block;
+    color: #673ab7;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+    font-size: 15px;
+  }
+
+  &-price {
+    display: block;
+    text-decoration: line-through;
+    margin: 0 0 0.5rem;
+    font-size: 14px;
+  }
+
+  &-newPrice {
+    display: block;
+    font-size: 22px;
+    margin: 0 0 0.5rem;
+  }
+}
+
